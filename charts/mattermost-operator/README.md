@@ -56,7 +56,7 @@ helm install <your-release-name> mattermost/mattermost-operator -f config.yaml -
 
 ### Upgrading the CRDs
 
-Helm does not upgrade the CRDs during a release upgrade. Before you upgrade a release, preform the following to ensure you have the appropriate CRDs available.
+Helm does not upgrade the CRDs during a release upgrade. Before you upgrade a release, perform the following to ensure you have the appropriate CRDs available.
 
 1. Pull the chart sources:
 
